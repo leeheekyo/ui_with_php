@@ -183,7 +183,6 @@ $nfiletext = explode("\n", $filetext);
 
 $c = (int)(count($nfiletext));
 
-if($c>4){
 $i=0;
 $max=0;
 foreach($nfiletext as $str){
@@ -232,7 +231,6 @@ foreach($nfiletext as $str){
             }
         }
     }
-}
 }
 $json = json_encode($json_a);
 if($c>4) {
